@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAFEC7FC5697CEF192D8DD5C /* Pods_Fireline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CA53D69119FD692FC0B5AA /* Pods_Fireline.framework */; };
 		B572E1572D885BF900AD28E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1562D885BF900AD28E8 /* AppDelegate.swift */; };
-		B572E1592D885BF900AD28E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1582D885BF900AD28E8 /* SceneDelegate.swift */; };
-		B572E15B2D885BF900AD28E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E15A2D885BF900AD28E8 /* ViewController.swift */; };
+		B572E15B2D885BF900AD28E8 /* FirelineSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E15A2D885BF900AD28E8 /* FirelineSplashView.swift */; };
 		B572E15E2D885BF900AD28E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B572E15D2D885BF900AD28E8 /* Base */; };
 		B572E1602D885BFA00AD28E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B572E15F2D885BFA00AD28E8 /* Assets.xcassets */; };
 		B572E1632D885BFA00AD28E8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B572E1622D885BFA00AD28E8 /* Base */; };
+		B572E16C2D885C1D00AD28E8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B572E16B2D885C1D00AD28E8 /* SnapKit */; };
+		B572E16E2D885CFC00AD28E8 /* Oswald-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B572E16D2D885CFC00AD28E8 /* Oswald-DemiBold.ttf */; };
+		B572E1702D885D9200AD28E8 /* FirelineOnboardTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E16F2D885D9200AD28E8 /* FirelineOnboardTrueView.swift */; };
+		B572E1722D885D9F00AD28E8 /* FirelineMenuTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1712D885D9F00AD28E8 /* FirelineMenuTrueView.swift */; };
+		B572E1742D885DAA00AD28E8 /* FirelineSettingsTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1732D885DAA00AD28E8 /* FirelineSettingsTrueView.swift */; };
+		B572E1762D885DB500AD28E8 /* FirelineInfoTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1752D885DB500AD28E8 /* FirelineInfoTrueView.swift */; };
+		B572E1782D885DC300AD28E8 /* FirelineFilesTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1772D885DC300AD28E8 /* FirelineFilesTrueView.swift */; };
+		B572E17A2D885DCE00AD28E8 /* FirelineStoryTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1792D885DCE00AD28E8 /* FirelineStoryTrueView.swift */; };
+		B572E17C2D885DD900AD28E8 /* FirelineBigImageTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E17B2D885DD900AD28E8 /* FirelineBigImageTrueView.swift */; };
+		B572E17E2D885DEB00AD28E8 /* FirelineGameOnboardingTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E17D2D885DEB00AD28E8 /* FirelineGameOnboardingTrueView.swift */; };
+		B572E1802D885DFC00AD28E8 /* FirelineBlazingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E17F2D885DFC00AD28E8 /* FirelineBlazingView.swift */; };
+		B572E1822D885E0600AD28E8 /* FirelineInfernoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1812D885E0600AD28E8 /* FirelineInfernoView.swift */; };
+		B572E1842D885E0F00AD28E8 /* FirelineRescueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E1832D885E0F00AD28E8 /* FirelineRescueView.swift */; };
+		B572E1862D8862AF00AD28E8 /* firelineTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = B572E1852D8862AF00AD28E8 /* firelineTap.wav */; };
+		B572E1892D88635000AD28E8 /* firelineBack.wav in Resources */ = {isa = PBXBuildFile; fileRef = B572E1872D88635000AD28E8 /* firelineBack.wav */; };
+		B572E18A2D88635000AD28E8 /* firelineWin.wav in Resources */ = {isa = PBXBuildFile; fileRef = B572E1882D88635000AD28E8 /* firelineWin.wav */; };
+		B572E18C2D88858F00AD28E8 /* firelineLose.wav in Resources */ = {isa = PBXBuildFile; fileRef = B572E18B2D88858F00AD28E8 /* firelineLose.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CB49484E886AA515162621A /* Pods-Fireline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fireline.release.xcconfig"; path = "Target Support Files/Pods-Fireline/Pods-Fireline.release.xcconfig"; sourceTree = "<group>"; };
 		B572E1532D885BF900AD28E8 /* Fireline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fireline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572E1562D885BF900AD28E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B572E1582D885BF900AD28E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B572E15A2D885BF900AD28E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B572E15A2D885BF900AD28E8 /* FirelineSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineSplashView.swift; sourceTree = "<group>"; };
 		B572E15D2D885BF900AD28E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B572E15F2D885BFA00AD28E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B572E1622D885BFA00AD28E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B572E1642D885BFA00AD28E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B572E16D2D885CFC00AD28E8 /* Oswald-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-DemiBold.ttf"; sourceTree = "<group>"; };
+		B572E16F2D885D9200AD28E8 /* FirelineOnboardTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineOnboardTrueView.swift; sourceTree = "<group>"; };
+		B572E1712D885D9F00AD28E8 /* FirelineMenuTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineMenuTrueView.swift; sourceTree = "<group>"; };
+		B572E1732D885DAA00AD28E8 /* FirelineSettingsTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineSettingsTrueView.swift; sourceTree = "<group>"; };
+		B572E1752D885DB500AD28E8 /* FirelineInfoTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineInfoTrueView.swift; sourceTree = "<group>"; };
+		B572E1772D885DC300AD28E8 /* FirelineFilesTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineFilesTrueView.swift; sourceTree = "<group>"; };
+		B572E1792D885DCE00AD28E8 /* FirelineStoryTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineStoryTrueView.swift; sourceTree = "<group>"; };
+		B572E17B2D885DD900AD28E8 /* FirelineBigImageTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineBigImageTrueView.swift; sourceTree = "<group>"; };
+		B572E17D2D885DEB00AD28E8 /* FirelineGameOnboardingTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineGameOnboardingTrueView.swift; sourceTree = "<group>"; };
+		B572E17F2D885DFC00AD28E8 /* FirelineBlazingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineBlazingView.swift; sourceTree = "<group>"; };
+		B572E1812D885E0600AD28E8 /* FirelineInfernoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineInfernoView.swift; sourceTree = "<group>"; };
+		B572E1832D885E0F00AD28E8 /* FirelineRescueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirelineRescueView.swift; sourceTree = "<group>"; };
+		B572E1852D8862AF00AD28E8 /* firelineTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = firelineTap.wav; sourceTree = "<group>"; };
+		B572E1872D88635000AD28E8 /* firelineBack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = firelineBack.wav; sourceTree = "<group>"; };
+		B572E1882D88635000AD28E8 /* firelineWin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = firelineWin.wav; sourceTree = "<group>"; };
+		B572E18B2D88858F00AD28E8 /* firelineLose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = firelineLose.wav; sourceTree = "<group>"; };
+		B86CFD58F58E8EEDED019B41 /* Pods-Fireline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fireline.debug.xcconfig"; path = "Target Support Files/Pods-Fireline/Pods-Fireline.debug.xcconfig"; sourceTree = "<group>"; };
+		C2CA53D69119FD692FC0B5AA /* Pods_Fireline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fireline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B572E16C2D885C1D00AD28E8 /* SnapKit in Frameworks */,
+				AAFEC7FC5697CEF192D8DD5C /* Pods_Fireline.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB601E862A6C8527547CE5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B86CFD58F58E8EEDED019B41 /* Pods-Fireline.debug.xcconfig */,
+				7CB49484E886AA515162621A /* Pods-Fireline.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B572E14A2D885BF900AD28E8 = {
 			isa = PBXGroup;
 			children = (
 				B572E1552D885BF900AD28E8 /* Fireline */,
 				B572E1542D885BF900AD28E8 /* Products */,
+				2EB601E862A6C8527547CE5E /* Pods */,
+				CA32E4D3B8BB1532A8FBD1DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +105,37 @@
 			isa = PBXGroup;
 			children = (
 				B572E1562D885BF900AD28E8 /* AppDelegate.swift */,
-				B572E1582D885BF900AD28E8 /* SceneDelegate.swift */,
-				B572E15A2D885BF900AD28E8 /* ViewController.swift */,
+				B572E15A2D885BF900AD28E8 /* FirelineSplashView.swift */,
+				B572E16F2D885D9200AD28E8 /* FirelineOnboardTrueView.swift */,
+				B572E1712D885D9F00AD28E8 /* FirelineMenuTrueView.swift */,
+				B572E1732D885DAA00AD28E8 /* FirelineSettingsTrueView.swift */,
+				B572E1752D885DB500AD28E8 /* FirelineInfoTrueView.swift */,
+				B572E1772D885DC300AD28E8 /* FirelineFilesTrueView.swift */,
+				B572E1792D885DCE00AD28E8 /* FirelineStoryTrueView.swift */,
+				B572E17B2D885DD900AD28E8 /* FirelineBigImageTrueView.swift */,
+				B572E17D2D885DEB00AD28E8 /* FirelineGameOnboardingTrueView.swift */,
+				B572E1812D885E0600AD28E8 /* FirelineInfernoView.swift */,
+				B572E17F2D885DFC00AD28E8 /* FirelineBlazingView.swift */,
+				B572E1832D885E0F00AD28E8 /* FirelineRescueView.swift */,
 				B572E15C2D885BF900AD28E8 /* Main.storyboard */,
 				B572E15F2D885BFA00AD28E8 /* Assets.xcassets */,
 				B572E1612D885BFA00AD28E8 /* LaunchScreen.storyboard */,
+				B572E16D2D885CFC00AD28E8 /* Oswald-DemiBold.ttf */,
 				B572E1642D885BFA00AD28E8 /* Info.plist */,
+				B572E18B2D88858F00AD28E8 /* firelineLose.wav */,
+				B572E1872D88635000AD28E8 /* firelineBack.wav */,
+				B572E1882D88635000AD28E8 /* firelineWin.wav */,
+				B572E1852D8862AF00AD28E8 /* firelineTap.wav */,
 			);
 			path = Fireline;
+			sourceTree = "<group>";
+		};
+		CA32E4D3B8BB1532A8FBD1DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2CA53D69119FD692FC0B5AA /* Pods_Fireline.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B572E1672D885BFA00AD28E8 /* Build configuration list for PBXNativeTarget "Fireline" */;
 			buildPhases = (
+				1711FEB979B965491F394623 /* [CP] Check Pods Manifest.lock */,
 				B572E14F2D885BF900AD28E8 /* Sources */,
 				B572E1502D885BF900AD28E8 /* Frameworks */,
 				B572E1512D885BF900AD28E8 /* Resources */,
@@ -83,6 +155,9 @@
 			dependencies = (
 			);
 			name = Fireline;
+			packageProductDependencies = (
+				B572E16B2D885C1D00AD28E8 /* SnapKit */,
+			);
 			productName = Fireline;
 			productReference = B572E1532D885BF900AD28E8 /* Fireline.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +186,9 @@
 				Base,
 			);
 			mainGroup = B572E14A2D885BF900AD28E8;
+			packageReferences = (
+				B572E16A2D885C1D00AD28E8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = B572E1542D885BF900AD28E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,21 +204,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				B572E1602D885BFA00AD28E8 /* Assets.xcassets in Resources */,
+				B572E1862D8862AF00AD28E8 /* firelineTap.wav in Resources */,
 				B572E1632D885BFA00AD28E8 /* Base in Resources */,
+				B572E16E2D885CFC00AD28E8 /* Oswald-DemiBold.ttf in Resources */,
 				B572E15E2D885BF900AD28E8 /* Base in Resources */,
+				B572E18C2D88858F00AD28E8 /* firelineLose.wav in Resources */,
+				B572E1892D88635000AD28E8 /* firelineBack.wav in Resources */,
+				B572E18A2D88635000AD28E8 /* firelineWin.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1711FEB979B965491F394623 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fireline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B572E14F2D885BF900AD28E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B572E15B2D885BF900AD28E8 /* ViewController.swift in Sources */,
+				B572E17A2D885DCE00AD28E8 /* FirelineStoryTrueView.swift in Sources */,
+				B572E17C2D885DD900AD28E8 /* FirelineBigImageTrueView.swift in Sources */,
+				B572E15B2D885BF900AD28E8 /* FirelineSplashView.swift in Sources */,
+				B572E17E2D885DEB00AD28E8 /* FirelineGameOnboardingTrueView.swift in Sources */,
+				B572E1782D885DC300AD28E8 /* FirelineFilesTrueView.swift in Sources */,
+				B572E1702D885D9200AD28E8 /* FirelineOnboardTrueView.swift in Sources */,
+				B572E1822D885E0600AD28E8 /* FirelineInfernoView.swift in Sources */,
+				B572E1842D885E0F00AD28E8 /* FirelineRescueView.swift in Sources */,
+				B572E1762D885DB500AD28E8 /* FirelineInfoTrueView.swift in Sources */,
 				B572E1572D885BF900AD28E8 /* AppDelegate.swift in Sources */,
-				B572E1592D885BF900AD28E8 /* SceneDelegate.swift in Sources */,
+				B572E1802D885DFC00AD28E8 /* FirelineBlazingView.swift in Sources */,
+				B572E1722D885D9F00AD28E8 /* FirelineMenuTrueView.swift in Sources */,
+				B572E1742D885DAA00AD28E8 /* FirelineSettingsTrueView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +405,7 @@
 		};
 		B572E1682D885BFA00AD28E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86CFD58F58E8EEDED019B41 /* Pods-Fireline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,26 +413,33 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fireline/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fire Squad: Blaze Fortune";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Fireline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.expliction.res;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B572E1692D885BFA00AD28E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB49484E886AA515162621A /* Pods-Fireline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,21 +447,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Fireline/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fire Squad: Blaze Fortune";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Fireline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.expliction.res;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +493,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B572E16A2D885C1D00AD28E8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B572E16B2D885C1D00AD28E8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B572E16A2D885C1D00AD28E8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B572E14B2D885BF900AD28E8 /* Project object */;
 }
